@@ -1,0 +1,19 @@
+{
+    "Framework": "qunit",
+    "TestHarnessReferenceMode": "AMD",
+    "AMDBasePath": "../Scripts",
+    "References": [
+        {
+            "Path": "../Scripts/require.js"
+        },
+        {
+            "Path": "require.config.base.js"
+        },
+        {
+            "Path": "require.config.test.js"
+        }
+    ],
+    "Tests": [ 
+		{ "Path":  "Group1", "Include": "*.test.js" }
+    ]
+}
